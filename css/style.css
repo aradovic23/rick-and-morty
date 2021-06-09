@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003c8f;
+  height: 50px;
+  box-shadow: 0 2px 2px -2px gray;
+  margin-bottom: 15px; }
+  header span {
+    font-weight: bold;
+    color: white;
+    font-size: 20px; }
+  header img {
+    width: 100px; }
+
+#main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+  #main .char-card {
+    background-color: #fff;
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px; }
+    #main .char-card img {
+      width: 100%;
+      height: auto;
+      padding-bottom: 5px;
+      border-radius: 0 0 10px 10px; }
+      #main .char-card img:hover {
+        cursor: pointer; }
+    #main .char-card h3 {
+      font-size: 16px;
+      font-weight: bold; }
+    #main .char-card button {
+      background-color: #003c8f;
+      border: none;
+      width: 30%;
+      border-radius: 10px;
+      color: white;
+      font-size: 13px;
+      height: 30px;
+      transition: ease-in .2s; }
+      #main .char-card button.liked {
+        background-color: #2e7d32;
+        border: none;
+        width: 30%;
+        border-radius: 15px;
+        color: white;
+        font-size: 13px; }
+
+a.page-link {
+  color: #003c8f; }
+  a.page-link:hover {
+    color: #5e92f3; }
+
+/*# sourceMappingURL=style.css.map */
